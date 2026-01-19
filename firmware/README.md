@@ -1,4 +1,5 @@
 Wersja 1.04
+https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_1_04.bin
 
 
 Zmiany:
