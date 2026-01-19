@@ -6,7 +6,7 @@ Zmiany:
 1. Dodano opcję szybkiej zmiany WPM, FWPM/BWPM, TX space, VOLUME w ćwiczeniach nadawania, odbioru i Practice.
 Wywołanie - długie naciśnięcie enkodera.
  W KEYER zostaje po staremu, bo tak jest szybciej w przypadku pracy.
-2. Zaimplementowano dwuznaki <AR><SK><KN><AS><BK> w Practice i KEYER + KEYER LOG
+2. Zaimplementowano dwuznaki AR SK KN AS BK w Practice i KEYER + KEYER LOG
 3. W opcji „logger” widać status i nazwę bieżącego pliku jeśli jest włączone logowanie. Można zatrzymać i wznowić logowanie do nowego pliku.
 Przejrzyście i zrozumiale...
 4. Pliki konfiguracyjne mogą być na ścieżce „/” lub „/configs/”. Można sobie dzięki temu uporządkować kartę.
