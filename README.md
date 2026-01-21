@@ -11,4 +11,4 @@ SDCard – sample configuration, training files for and directories on the SD ca
 Firmware – firmware files for MorseLAB
 
 
-Firmware change log https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md
+Firmware change log [https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md](https://github.com/hamhobbypl/morselab/blob/main/firmware/README.md)
