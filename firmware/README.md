@@ -1,3 +1,17 @@
+Wersja 2.0
+https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_1_04.bin
+
+
+Zmiany:
+1. Dodano ćwiczenia Warmup, Exercise, Drill zgodnie z dokumentem https://cwops.org/wp-content/uploads/2022/03/Everyday-Send-Code-WR7Q-ver.-7.pdf
+
+2. Dodano ćwiczenie Pyramid
+
+3. Dodano ćwiczenie DrillWord - domyślne słowo BENSBESTBENTWIRE, jeśli załadujemy plik z karty wtedy pierwsze słowo jest z pliku z karty.
+
+
+*******************************************************
+
 Wersja 1.04
 https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_1_04.bin
 
