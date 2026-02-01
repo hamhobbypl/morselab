@@ -3,7 +3,7 @@ https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_2.bin
 
 
 Zmiany:
-1. Możliwośc ustawiania WPM RX(MIN MAX), FWPM/BWPM RX(MIN MAX), TONE(MIN MAX) i VOLUME(MIN MAX) na wejściu ćwiczeń Head Copy i  Copy Callisign
+1. Możliwość ustawiania WPM RX(MIN MAX), FWPM/BWPM RX(MIN MAX), TONE(MIN MAX) i VOLUME(MIN MAX) na wejściu ćwiczeń Head Copy i  Copy Callisign
 
 2. Śledzenie w ćwiczeniach DAILY.
 
