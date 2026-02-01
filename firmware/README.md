@@ -1,3 +1,16 @@
+Wersja 2.2
+
+
+
+Zmiany:
+1. Możliwośc ustaiwanie WPM RX, TONE i VOLUME na wejściu ćwiczeń Head Copy i  Copy Callisign
+
+2. Śledzenie w ćwiczeniach DAILY.
+
+3. Zapis TOP score jeśli w DrillWord - domyślne słowo BENSBESTBENTWIRE
+
+
+*******************************************************
 Wersja 2.0
 https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_00.bin 
 
