@@ -1,5 +1,5 @@
 Wersja 2.2
-
+https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_2.bin
 
 
 Zmiany:
@@ -8,6 +8,8 @@ Zmiany:
 2. Śledzenie w ćwiczeniach DAILY.
 
 3. Zapis TOP score jeśli w DrillWord - domyślne słowo BENSBESTBENTWIRE
+
+
 
 
 *******************************************************
