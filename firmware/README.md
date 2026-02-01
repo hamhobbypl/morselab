@@ -3,12 +3,11 @@ https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_2.bin
 
 
 Zmiany:
-1. Możliwośc ustaiwanie WPM RX, TONE i VOLUME na wejściu ćwiczeń Head Copy i  Copy Callisign
+1. Możliwośc ustawiania WPM RX(MIN MAX), FWPM/BWPM RX(MIN MAX), TONE(MIN MAX) i VOLUME(MIN MAX) na wejściu ćwiczeń Head Copy i  Copy Callisign
 
 2. Śledzenie w ćwiczeniach DAILY.
 
 3. Zapis TOP score jeśli w DrillWord - domyślne słowo BENSBESTBENTWIRE
-
 
 
 
