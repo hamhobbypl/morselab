@@ -7,7 +7,7 @@ Zmiany:
 
 2. Śledzenie w ćwiczeniach DAILY.
 
-3. Zapis TOP score jeśli w DrillWord - domyślne słowo BENSBESTBENTWIRE
+3. Zapis TOP score jeśli w DrillWord - domyślne słowo to BENSBESTBENTWIRE.
 
 
 
