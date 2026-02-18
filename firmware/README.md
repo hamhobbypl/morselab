@@ -1,4 +1,4 @@
-Wersja 2.4
+Wersja 2.4 https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_4.bin
 
 Zmiany: 
 1. Dodano szybkie obroty enkodera w SETUP/VOLUME i na wejściu HeadCopy i CopyCall w ustawianiu VOLUME.
