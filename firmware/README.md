@@ -1,3 +1,13 @@
+Wersja 2.5 https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_5.bin
+
+Zmiany: 
+
+Poprawki w ustawianiu VOLUME
+
+
+*******************************************************
+
+
 Wersja 2.4 https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_4.bin
 
 Zmiany: 
