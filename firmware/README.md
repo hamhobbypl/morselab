@@ -1,4 +1,4 @@
-# MorseLAB Firmware v2.9 – Release Notes
+## MorseLAB Firmware v2.9 – Release Notes
 
 ## 🇵🇱 Polski
 
@@ -28,7 +28,7 @@
 
 7. W **BEACON** dodano obsługę **prosignów w makrach**.
 
-8. Usunięto opcję **TUTOR → config → Timeout** – parametr jest teraz ustawiany bezpośrednio w ćwiczeniach.
+8. Usunięto opcję **TUTOR → config → Timeout** – parametr jest teraz ustawiany bezpośrednio w ćwiczeniach 100HeadCopy, 100SendWord.
 
 9. Naprawiono błąd w trybie **Ultimatic Mode**.
 
@@ -62,7 +62,7 @@
 
 7. Added **prosign support in macros** in **BEACON**.
 
-8. Removed **TUTOR → config → Timeout** – timeout is now configured per exercise.
+8. Removed **TUTOR → config → Timeout** – timeout is now configured per exercises 100HeadCopy, 100SendWord.
 
 9. Fixed bug in **Ultimatic Mode**.
 
@@ -96,7 +96,7 @@
 
 7. Unterstützung für **Prosigns in Makros** im **BEACON** hinzugefügt.
 
-8. Option **TUTOR → config → Timeout** entfernt – die Zeitsteuerung erfolgt jetzt direkt in den Übungen.
+8. Option **TUTOR → config → Timeout** entfernt – die Zeitsteuerung erfolgt jetzt direkt in den Übungen 100HeadCopy, 100SendWord.
 
 9. Fehler im **Ultimatic Mode** behoben.
 
