@@ -1,14 +1,61 @@
-PL
+# MorseLAB – README
 
-SDCard - przykładowe pliki konfiguracyjne, treningowe i struktura katalogów na kartę SD
+---
 
-Firmware - pliki firmware do MorseLAB
+## 🇵🇱 Polski
 
-ENG
+### Struktura repozytorium
 
-SDCard – sample configuration, training files for and directories on the SD card
+**SDCard**
+Przykładowe pliki:
 
-Firmware – firmware files for MorseLAB
+* konfiguracyjne,
+* treningowe,
+  oraz struktura katalogów przeznaczona na kartę SD.
 
+**Firmware**
+Pliki firmware dla urządzenia **MorseLAB**.
 
-Firmware change log [https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md](https://github.com/hamhobbypl/morselab/blob/main/firmware/README.md)
+**Zmiany w firmware (changelog)**
+https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md
+
+---
+
+## 🇬🇧 English
+
+### Repository structure
+
+**SDCard**
+Sample files including:
+
+* configuration files,
+* training content,
+  as well as directory structure for the SD card.
+
+**Firmware**
+Firmware files for the **MorseLAB** device.
+
+**Firmware change log**
+https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md
+
+---
+
+## 🇩🇪 Deutsch
+
+### Repository-Struktur
+
+**SDCard**
+Beispieldateien:
+
+* Konfigurationsdateien,
+* Trainingsdateien,
+  sowie die Verzeichnisstruktur für die SD-Karte.
+
+**Firmware**
+Firmware-Dateien für das Gerät **MorseLAB**.
+
+**Firmware-Änderungsprotokoll (Changelog)**
+https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md
+
+---
+
