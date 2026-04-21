@@ -1,5 +1,7 @@
 ## MorseLAB Firmware v2.9 – Release Notes
 
+https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_9.bin
+
 ## 🇵🇱 Polski
 
 ### Zmiany względem wersji 2.5
