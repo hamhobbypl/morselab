@@ -1,4 +1,4 @@
-# MorseBOX Firmware v2.9 – Release Notes
+# MorseLAB Firmware v2.9 – Release Notes
 
 ## 🇵🇱 Polski
 
