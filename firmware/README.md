@@ -1,3 +1,109 @@
+# MorseBOX Firmware v2.9 – Release Notes
+
+## 🇵🇱 Polski
+
+### Zmiany względem wersji 2.5
+
+1. Dodano **FILE MANAGER** do zarządzania plikami na karcie SD przez Wi-Fi
+   (Menu główne: `FILEMNG`).
+
+2. W **TUTOR** dodano oznaczenie `*` przy ćwiczeniach – po załadowaniu własnego kontentu z karty SD widać, które ćwiczenia z niego korzystają.
+
+3. Dodano opcję w **TUTOR → config → No File**, która:
+
+   * przywraca domyślny kontent z urządzenia,
+   * porzuca dane wczytane z pliku.
+
+4. W ćwiczeniach **HeadCopy** oraz **CopyCall sign** dodano opcję:
+   **"Repeat after copy fail?"**, która określa, czy:
+
+   * urządzenie ma automatycznie powtarzać materiał po błędnej próbie,
+   * czy przejść dalej bez powtórzenia.
+     (W HeadCopy można użyć znaku `?` jako odpowiedzi pomocniczej.)
+
+5. W ćwiczeniu **SendWord** dodano opcję ukrywania bieżącego słowa,
+   co umożliwia nadawanie z pamięci.
+
+6. W **KEYER** dodano obsługę **prosignów w makrach**.
+
+7. W **BEACON** dodano obsługę **prosignów w makrach**.
+
+8. Usunięto opcję **TUTOR → config → Timeout** – parametr jest teraz ustawiany bezpośrednio w ćwiczeniach.
+
+9. Naprawiono błąd w trybie **Ultimatic Mode**.
+
+---
+
+## 🇬🇧 English
+
+### Changes compared to version 2.5
+
+1. Added **FILE MANAGER** for managing SD card files over Wi-Fi
+   (Main menu: `FILEMNG`).
+
+2. In **TUTOR**, exercises using custom SD card content are now marked with `*`.
+
+3. Added option in **TUTOR → config → No File**, which:
+
+   * restores built-in device content,
+   * discards loaded file data.
+
+4. In **HeadCopy** and **CopyCall sign** exercises, added option:
+   **"Repeat after copy fail?"** to control whether:
+
+   * the device automatically repeats after a failed attempt,
+   * or proceeds without repeating.
+     (In HeadCopy, `?` can be used as a helper input.)
+
+5. In **SendWord**, added option to hide the current word,
+   enabling transmission from memory.
+
+6. Added **prosign support in macros** in **KEYER**.
+
+7. Added **prosign support in macros** in **BEACON**.
+
+8. Removed **TUTOR → config → Timeout** – timeout is now configured per exercise.
+
+9. Fixed bug in **Ultimatic Mode**.
+
+---
+
+## 🇩🇪 Deutsch
+
+### Änderungen gegenüber Version 2.5
+
+1. **FILE MANAGER** hinzugefügt zur Verwaltung von SD-Karten-Dateien über Wi-Fi
+   (Hauptmenü: `FILEMNG`).
+
+2. Im **TUTOR** werden Übungen, die benutzerdefinierte SD-Inhalte verwenden, jetzt mit `*` markiert.
+
+3. Neue Option in **TUTOR → config → No File**, die:
+
+   * den internen Gerätekontent wiederherstellt,
+   * geladene Dateidaten verwirft.
+
+4. In den Übungen **HeadCopy** und **CopyCall sign** wurde die Option
+   **"Repeat after copy fail?"** hinzugefügt, um festzulegen, ob:
+
+   * das Gerät nach einem Fehler automatisch wiederholt,
+   * oder ohne Wiederholung fortfährt.
+     (Im HeadCopy kann `?` als Hilfseingabe verwendet werden.)
+
+5. In **SendWord** wurde eine Option hinzugefügt, das aktuelle Wort auszublenden,
+   um das Senden aus dem Gedächtnis zu ermöglichen.
+
+6. Unterstützung für **Prosigns in Makros** im **KEYER** hinzugefügt.
+
+7. Unterstützung für **Prosigns in Makros** im **BEACON** hinzugefügt.
+
+8. Option **TUTOR → config → Timeout** entfernt – die Zeitsteuerung erfolgt jetzt direkt in den Übungen.
+
+9. Fehler im **Ultimatic Mode** behoben.
+
+---
+
+
+
 Wersja 2.5 https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_5.bin
 
 Zmiany: 
