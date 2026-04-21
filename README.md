@@ -17,7 +17,7 @@ Przykładowe pliki:
 Pliki firmware dla urządzenia **MorseLAB**.
 
 **Zmiany w firmware (changelog)**
-[https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md](https://github.com/hamhobbypl/morselab/blob/main/README.md)
+https://github.com/hamhobbypl/morselab/blob/main/firmware/README.md
 
 ---
 
@@ -36,7 +36,7 @@ Sample files including:
 Firmware files for the **MorseLAB** device.
 
 **Firmware change log**
-[https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md](https://github.com/hamhobbypl/morselab/blob/main/README.md)
+https://github.com/hamhobbypl/morselab/blob/main/firmware/README.md
 
 ---
 
@@ -55,7 +55,6 @@ Beispieldateien:
 Firmware-Dateien für das Gerät **MorseLAB**.
 
 **Firmware-Änderungsprotokoll (Changelog)**
-[https://github.com/hamhobbypl/morselab/blob/main/Firmware/README.md](https://github.com/hamhobbypl/morselab/blob/main/README.md)
-
+https://github.com/hamhobbypl/morselab/blob/main/firmware/README.md
 ---
 
