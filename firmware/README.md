@@ -26,9 +26,9 @@ https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_9.bin
 5. W ćwiczeniu **SendWord** dodano opcję ukrywania bieżącego słowa,
    co umożliwia nadawanie z pamięci.
 
-6. W **KEYER** dodano obsługę **prosignów w makrach** AR SK KN AS BK.
+6. W **KEYER** dodano obsługę **prosignów w makrach** &lt;AR&gt; &lt;SK&gt; &lt;KN&gt; &lt;AS&gt; &lt;BK&gt;.
 
-7. W **BEACON** dodano obsługę **prosignów w makrach** AR SK KN AS BK.
+7. W **BEACON** dodano obsługę **prosignów w makrach** &lt;AR&gt; &lt;SK&gt; &lt;KN&gt; &lt;AS&gt; &lt;BK&gt;.
 
 8. Usunięto opcję **TUTOR → config → Timeout** – parametr jest teraz ustawiany bezpośrednio w ćwiczeniach 100HeadCopy, 100SendWord.
 
@@ -60,9 +60,9 @@ https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_9.bin
 5. In **SendWord**, added option to hide the current word,
    enabling transmission from memory.
 
-6. Added **prosign support in macros** in **KEYER** AR SK KN AS BK.
+6. Added **prosign support in macros** in **KEYER** &lt;AR&gt; &lt;SK&gt; &lt;KN&gt; &lt;AS&gt; &lt;BK&gt;.
 
-7. Added **prosign support in macros** in **BEACON** AR SK KN AS BK.
+7. Added **prosign support in macros** in **BEACON** &lt;AR&gt; &lt;SK&gt; &lt;KN&gt; &lt;AS&gt; &lt;BK&gt;.
 
 8. Removed **TUTOR → config → Timeout** – timeout is now configured per exercises 100HeadCopy, 100SendWord.
 
@@ -94,9 +94,9 @@ https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_2_9.bin
 5. In **SendWord** wurde eine Option hinzugefügt, das aktuelle Wort auszublenden,
    um das Senden aus dem Gedächtnis zu ermöglichen.
 
-6. Unterstützung für **Prosigns in Makros** im **KEYER** hinzugefügt AR SK KN AS BK.
+6. Unterstützung für **Prosigns in Makros** im **KEYER** hinzugefügt &lt;AR&gt; &lt;SK&gt; &lt;KN&gt; &lt;AS&gt; &lt;BK&gt;.
 
-7. Unterstützung für **Prosigns in Makros** im **BEACON** hinzugefügt AR SK KN AS BK.
+7. Unterstützung für **Prosigns in Makros** im **BEACON** hinzugefügt &lt;AR&gt; &lt;SK&gt; &lt;KN&gt; &lt;AS&gt; &lt;BK&gt;.
 
 8. Option **TUTOR → config → Timeout** entfernt – die Zeitsteuerung erfolgt jetzt direkt in den Übungen 100HeadCopy, 100SendWord.
 
