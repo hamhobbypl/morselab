@@ -2,7 +2,7 @@
 
 MD5 (firmware_3_4.bin) = ea08e4688d0adffe93fa86e4325eb65d
 
-firmware/firmware_3_4.bin
+[firmware/firmware_3_4.bin](https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_3_4.bin)
 
 ---
 
