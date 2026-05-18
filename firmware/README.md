@@ -1,3 +1,558 @@
+# MorseLAB – Release Notes 3.4
+
+MD5 (firmware_3_4.bin) = ea08e4688d0adffe93fa86e4325eb65d
+
+[firmware/firmware_3_4.bin](https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_3_4.bin)
+
+---
+
+# 🇵🇱 Polski
+
+## Release Notes
+
+### Nowe Funkcje
+
+#### Nowy Tryb Nauki „Phrases”
+
+Dodano nowy tryb ćwiczeń **Phrases**.
+
+Podobnie jak istniejący tryb Drill, umożliwia ćwiczenie całych fraz zamiast pojedynczych słów.
+
+W przeciwieństwie do Drill, użytkownik może definiować własne frazy, np. realistyczne QSO zapisane w pliku `phrases.txt`.
+
+### Przykładowa zawartość `phrases.txt`
+
+```txt
+CQ CQ CQ DE SP8KM SP8KM K
+SP8KM DE SQ5ABC = GM = UR RST 599 599 = QTH WARSZAWA <KN>
+SQ5ABC DE SP8KM = TNX FER CALL = UR RST 579 579 = QTH DEBICA =
+SP8KM DE SQ5ABC = NAME TOM TOM = HW CPY? =
+SQ5ABC DE SP8KM = FB TOM = NAME ADAM ADAM = WX SUNNY 20C =
+SP8KM DE SQ5ABC = QSL ADAM = RIG 100W = ANT DIPOLE =
+SQ5ABC DE SP8KM = TNX FER QSO TOM = NICE TO MEET U =
+SP8KM DE SQ5ABC = HERE ADAM ADAM = HOPE CU AGN = 73 =
+SQ5ABC DE SP8KM = 73 TOM = GL =
+SP8KM DE SQ5ABC = 73 = <SK>
+```
+
+#### Dodano Obsługę Prosignu `<CT>`
+
+Dodano obsługę prosignu `<CT>`.
+
+---
+
+## Usprawnienia MQTT CHAT
+
+* Zwiększono bufory komunikacji MQTT
+* Dodano oddzielne wątki dla nadawania i odbioru
+* Poprawiono stabilność oraz responsywność
+
+Dodatkowo:
+
+* Jeśli istnieje plik `rooms.txt`, domyślne pokoje (`PUBLIC1`, `PUBLIC2`, `TEST`) nie są już automatycznie wyświetlane.
+
+---
+
+## Usprawnienia KEYER
+
+### Eksperymentalna Obsługa Klawiatur Bluetooth
+
+Dodano eksperymentalną obsługę klawiatur Bluetooth w trybie KEYER.
+
+### Nowa Wersja KEYER
+
+Dodano nową implementację KEYER z tym samym menu konfiguracji 4 parametrów uruchamianym długim przytrzymaniem enkodera.
+
+Typ KEYER-a konfiguruje się w pliku `ktype.txt`:
+
+```txt
+0
+# KEYER TYPE CONFIGURATION
+# 0 - OLD VERSION
+# 1 - NEW VERSION
+# 2 - WITH BLUETOOTH
+# 3 - CHOOSE BETWEEN NEW VERSION OR BLUETOOTH VERSION
+```
+
+---
+
+## Usprawnienia HEAD COPY
+
+Dodano obsługę pliku konfiguracyjnego `headcpy.txt` dla ćwiczeń:
+
+* HeadCopy
+* CopyCallsign
+
+Jeśli `headcpy.txt` nie jest używany, urządzenie automatycznie zapamiętuje ostatnie ustawienia użytkownika, jednak wymagane jest ich potwierdzenie przy każdym uruchomieniu.
+
+### Przykładowa konfiguracja
+
+```txt
+18-28
+0
+12-18
+17-22
+650-900
+# HEADCPY CONFIGURATION FILE
+# 1 LINE: WPM VALUE OR RANGE
+# 2 LINE: SPACING MODE: 0 - FWPM, 1 - BWPM
+# 3 LINE: FWPM VALUE/RANGE IF LINE 2 = 0, BWPM VALUE/RANGE IF LINE 2 = 1
+# 4 LINE: VOLUME VALUE OR RANGE 0-100
+# 5 LINE: PITCH VALUE OR RANGE 300-2000
+```
+
+---
+
+## Usprawnienia Ćwiczeń Odbioru
+
+W ćwiczeniach odbioru wyjście z ćwiczenia wymaga teraz potwierdzenia.
+
+Po krótkim naciśnięciu enkodera użytkownik może wybrać:
+
+* RESUME
+* EXIT
+
+Zapobiega to przypadkowemu zakończeniu ćwiczenia.
+
+---
+
+## Usprawnienia FILEMNG
+
+FILEMNG obsługuje teraz:
+
+* Edycję plików bezpośrednio przez interfejs WEB
+* Tworzenie nowych plików przez interfejs WEB
+
+Znacznie upraszcza to:
+
+* Dodawanie własnych ćwiczeń
+* Zarządzanie plikami tekstowymi i konfiguracyjnymi
+
+---
+
+## HAM CLOCK (HAMCLK)
+
+Dodano nowy moduł HAM CLOCK wyświetlający:
+
+* Czas UTC
+* Czas lokalny na podstawie lokatora
+* Aktywność słoneczną
+* Status propagacji dla pasm 80m, 40m, 20m i 10m
+
+Moduł potrafi również:
+
+* Nadawać czas alfabetem Morse’a
+* Literować czas głosem z plików mp3
+
+Wybudzanie ze screensavera może nastąpić przez:
+
+* zaprogramowane zdarzenia czasowe (co 10 minut lub co 1 godzinę),
+* enkoder,
+* klucz telegraficzny.
+
+Dane słoneczne pobierane są z usług NOAA Space Weather:
+
+* SFI / Solar Flux
+* Kp Index
+
+### Przykładowa konfiguracja `hamclk.txt`
+
+```txt
+KO00RC
+2
+23
+20
+17
+1
+1
++2
+# HAMCLK CONFIGURATION FILE
+# 1 LINE: LOCATOR
+# 2 LINE: 0 - NO MORSE, 1 - MORSE EVERY HOUR, 2 - MORSE EVERY 10 MIN
+# 3 LINE: WPM
+# 4 LINE: FWPM
+# 5 LINE: VOLUME
+# 6 LINE: 0 - VOICE SPELLING OFF, 1 - VOICE SPELLING ON
+# 7 LINE: SPELLING FOLDER 0 - LETTERSEN, 1 – LETTERS
+# 8 LINE: UTC OFFSET IF AUTO FROM LOCATOR IS NOT WORKING
+```
+
+---
+
+## Zmiany UI / Menu
+
+* Przeniesiono UPGRADE przed SETUP w głównym menu
+* Dodano okna potwierdzeń dla:
+
+  * UPGRADE
+  * DEFAULTS
+
+---
+
+# 🇬🇧 English
+
+## Release Notes
+
+### New Features
+
+#### New “Phrases” Training Mode
+
+Added a new **Phrases** exercise mode.
+
+Similar to the existing Drill exercise, it allows practicing complete phrases instead of single words.
+
+Unlike Drill, users can define their own custom phrases, for example realistic QSO exchanges stored in `phrases.txt`.
+
+### Example `phrases.txt`
+
+```txt
+CQ CQ CQ DE SP8KM SP8KM K
+SP8KM DE SQ5ABC = GM = UR RST 599 599 = QTH WARSZAWA <KN>
+SQ5ABC DE SP8KM = TNX FER CALL = UR RST 579 579 = QTH DEBICA =
+SP8KM DE SQ5ABC = NAME TOM TOM = HW CPY? =
+SQ5ABC DE SP8KM = FB TOM = NAME ADAM ADAM = WX SUNNY 20C =
+SP8KM DE SQ5ABC = QSL ADAM = RIG 100W = ANT DIPOLE =
+SQ5ABC DE SP8KM = TNX FER QSO TOM = NICE TO MEET U =
+SP8KM DE SQ5ABC = HERE ADAM ADAM = HOPE CU AGN = 73 =
+SQ5ABC DE SP8KM = 73 TOM = GL =
+SP8KM DE SQ5ABC = 73 = <SK>
+```
+
+#### Added `<CT>` Prosign Support
+
+Added support for the `<CT>` prosign.
+
+---
+
+## MQTT CHAT Improvements
+
+* Increased MQTT communication buffers
+* Added separate threads for transmit and receive operations
+* Improved stability and responsiveness
+
+Additionally:
+
+* If `rooms.txt` exists, default rooms (`PUBLIC1`, `PUBLIC2`, `TEST`) are no longer displayed automatically.
+
+---
+
+## KEYER Improvements
+
+### Experimental Bluetooth Keyboard Support
+
+Added experimental Bluetooth keyboard support in KEYER mode.
+
+### New KEYER Version
+
+Added a new KEYER implementation with the same 4-parameter long-press encoder configuration menu.
+
+KEYER type selection is configured in `ktype.txt`:
+
+```txt
+0
+# KEYER TYPE CONFIGURATION
+# 0 - OLD VERSION
+# 1 - NEW VERSION
+# 2 - WITH BLUETOOTH
+# 3 - CHOOSE BETWEEN NEW VERSION OR BLUETOOTH VERSION
+```
+
+---
+
+## HEAD COPY Improvements
+
+Added support for the `headcpy.txt` configuration file for:
+
+* HeadCopy
+* CopyCallsign
+
+If `headcpy.txt` is not used, the device automatically remembers the last user preferences, but confirmation is required every time.
+
+### Example Configuration
+
+```txt
+18-28
+0
+12-18
+17-22
+650-900
+# HEADCPY CONFIGURATION FILE
+# 1 LINE: WPM VALUE OR RANGE
+# 2 LINE: SPACING MODE: 0 - FWPM, 1 - BWPM
+# 3 LINE: FWPM VALUE/RANGE IF LINE 2 = 0, BWPM VALUE/RANGE IF LINE 2 = 1
+# 4 LINE: VOLUME VALUE OR RANGE 0-100
+# 5 LINE: PITCH VALUE OR RANGE 300-2000
+```
+
+---
+
+## Receive Training Improvements
+
+Receive exercises now require confirmation before exiting.
+
+After a short encoder press, users can choose:
+
+* RESUME
+* EXIT
+
+This prevents accidental termination of exercises.
+
+---
+
+## FILEMNG Improvements
+
+FILEMNG now supports:
+
+* Editing files directly through the WEB interface
+* Creating new files through the WEB interface
+
+This greatly simplifies:
+
+* Adding custom exercises
+* Managing text and configuration files
+
+---
+
+## HAM CLOCK (HAMCLK)
+
+Added a new HAM CLOCK module displaying:
+
+* UTC time
+* Local time based on locator
+* Solar activity
+* Band propagation status for 80m, 40m, 20m and 10m
+
+The module can also:
+
+* Send time in Morse code
+* Spell time using mp3 voice files
+
+Wake-up from screen saver is possible via:
+
+* scheduled time events (every 10 minutes or every 1 hour),
+* encoder,
+* Morse key.
+
+Solar data is retrieved from NOAA Space Weather services:
+
+* SFI / Solar Flux
+* Kp Index
+
+### Example `hamclk.txt` Configuration
+
+```txt
+KO00RC
+2
+23
+20
+17
+1
+1
++2
+# HAMCLK CONFIGURATION FILE
+# 1 LINE: LOCATOR
+# 2 LINE: 0 - NO MORSE, 1 - MORSE EVERY HOUR, 2 - MORSE EVERY 10 MIN
+# 3 LINE: WPM
+# 4 LINE: FWPM
+# 5 LINE: VOLUME
+# 6 LINE: 0 - VOICE SPELLING OFF, 1 - VOICE SPELLING ON
+# 7 LINE: SPELLING FOLDER 0 - LETTERSEN, 1 – LETTERS
+# 8 LINE: UTC OFFSET IF AUTO FROM LOCATOR IS NOT WORKING
+```
+
+---
+
+## UI / Menu Changes
+
+* Moved UPGRADE before SETUP in the main menu
+* Added confirmation dialogs for:
+
+  * UPGRADE
+  * DEFAULTS
+
+---
+
+# 🇩🇪 Deutsch
+
+## Release Notes
+
+### Neue Funktionen
+
+#### Neuer Trainingsmodus „Phrases“
+
+Ein neuer Übungsmodus **Phrases** wurde hinzugefügt.
+
+Ähnlich wie der bestehende Drill-Modus ermöglicht er das Üben kompletter Phrasen statt einzelner Wörter.
+
+Im Gegensatz zu Drill können Benutzer eigene Phrasen definieren, z. B. realistische QSO-Beispiele in der Datei `phrases.txt`.
+
+### Beispielinhalt von `phrases.txt`
+
+```txt
+CQ CQ CQ DE SP8KM SP8KM K
+SP8KM DE SQ5ABC = GM = UR RST 599 599 = QTH WARSZAWA <KN>
+SQ5ABC DE SP8KM = TNX FER CALL = UR RST 579 579 = QTH DEBICA =
+SP8KM DE SQ5ABC = NAME TOM TOM = HW CPY? =
+SQ5ABC DE SP8KM = FB TOM = NAME ADAM ADAM = WX SUNNY 20C =
+SP8KM DE SQ5ABC = QSL ADAM = RIG 100W = ANT DIPOLE =
+SQ5ABC DE SP8KM = TNX FER QSO TOM = NICE TO MEET U =
+SP8KM DE SQ5ABC = HERE ADAM ADAM = HOPE CU AGN = 73 =
+SQ5ABC DE SP8KM = 73 TOM = GL =
+SP8KM DE SQ5ABC = 73 = <SK>
+```
+
+#### Unterstützung für `<CT>` hinzugefügt
+
+Unterstützung für das Prosign `<CT>` wurde hinzugefügt.
+
+---
+
+## MQTT CHAT Verbesserungen
+
+* MQTT-Kommunikationspuffer vergrößert
+* Separate Threads für Senden und Empfangen hinzugefügt
+* Stabilität und Reaktionsfähigkeit verbessert
+
+Zusätzlich:
+
+* Falls `rooms.txt` existiert, werden die Standardräume (`PUBLIC1`, `PUBLIC2`, `TEST`) nicht mehr automatisch angezeigt.
+
+---
+
+## KEYER Verbesserungen
+
+### Experimentelle Bluetooth-Tastaturunterstützung
+
+Experimentelle Unterstützung für Bluetooth-Tastaturen im KEYER-Modus hinzugefügt.
+
+### Neue KEYER-Version
+
+Neue KEYER-Implementierung mit demselben 4-Parameter-Konfigurationsmenü per langem Druck auf den Encoder hinzugefügt.
+
+Die KEYER-Auswahl wird über `ktype.txt` konfiguriert:
+
+```txt
+0
+# KEYER TYPE CONFIGURATION
+# 0 - OLD VERSION
+# 1 - NEW VERSION
+# 2 - WITH BLUETOOTH
+# 3 - CHOOSE BETWEEN NEW VERSION OR BLUETOOTH VERSION
+```
+
+---
+
+## HEAD COPY Verbesserungen
+
+Unterstützung für die Konfigurationsdatei `headcpy.txt` hinzugefügt für:
+
+* HeadCopy
+* CopyCallsign
+
+Wenn `headcpy.txt` nicht verwendet wird, merkt sich das Gerät automatisch die letzten Einstellungen, eine Bestätigung ist jedoch weiterhin erforderlich.
+
+### Beispielkonfiguration
+
+```txt
+18-28
+0
+12-18
+17-22
+650-900
+# HEADCPY CONFIGURATION FILE
+# 1 LINE: WPM VALUE OR RANGE
+# 2 LINE: SPACING MODE: 0 - FWPM, 1 - BWPM
+# 3 LINE: FWPM VALUE/RANGE IF LINE 2 = 0, BWPM VALUE/RANGE IF LINE 2 = 1
+# 4 LINE: VOLUME VALUE OR RANGE 0-100
+# 5 LINE: PITCH VALUE OR RANGE 300-2000
+```
+
+---
+
+## Verbesserungen beim Empfangstraining
+
+Beim Verlassen von Empfangsübungen ist jetzt eine Bestätigung erforderlich.
+
+Nach kurzem Druck auf den Encoder kann gewählt werden:
+
+* RESUME
+* EXIT
+
+Dadurch wird ein versehentliches Beenden verhindert.
+
+---
+
+## FILEMNG Verbesserungen
+
+FILEMNG unterstützt jetzt:
+
+* Bearbeiten von Dateien direkt über das WEB-Interface
+* Erstellen neuer Dateien über das WEB-Interface
+
+Dies vereinfacht:
+
+* Hinzufügen eigener Übungen
+* Verwaltung von Text- und Konfigurationsdateien
+
+---
+
+## HAM CLOCK (HAMCLK)
+
+Neues HAM CLOCK Modul hinzugefügt mit Anzeige von:
+
+* UTC-Zeit
+* Lokaler Zeit basierend auf Locator
+* Sonnenaktivität
+* Ausbreitungsstatus für 80m, 40m, 20m und 10m
+
+Das Modul kann außerdem:
+
+* Zeit in Morsecode senden
+* Zeit per mp3-Sprachausgabe buchstabieren
+
+Aufwecken aus dem Bildschirmschoner möglich durch:
+
+* geplante Zeitereignisse (alle 10 Minuten oder jede 1 Stunde),
+* Encoder,
+* Morsetaste.
+
+Solardaten werden von NOAA Space Weather Diensten geladen:
+
+* SFI / Solar Flux
+* Kp Index
+
+### Beispiel `hamclk.txt`
+
+```txt
+KO00RC
+2
+23
+20
+17
+1
+1
++2
+# HAMCLK CONFIGURATION FILE
+# 1 LINE: LOCATOR
+# 2 LINE: 0 - NO MORSE, 1 - MORSE EVERY HOUR, 2 - MORSE EVERY 10 MIN
+# 3 LINE: WPM
+# 4 LINE: FWPM
+# 5 LINE: VOLUME
+# 6 LINE: 0 - VOICE SPELLING OFF, 1 - VOICE SPELLING ON
+# 7 LINE: SPELLING FOLDER 0 - LETTERSEN, 1 – LETTERS
+# 8 LINE: UTC OFFSET IF AUTO FROM LOCATOR IS NOT WORKING
+```
+
+---
+
+## UI / Menü Änderungen
+
+* UPGRADE vor SETUP im Hauptmenü verschoben
+* Bestätigungsdialoge hinzugefügt für:
+
+  * UPGRADE
+  * DEFAULTS
+
 
 
 ## MorseLAB Firmware v2.9 – Release Notes
