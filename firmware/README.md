@@ -43,7 +43,7 @@ Nowy interfejs pozwala:
 
 W trybie **HeadCopy** dodano wyświetlanie znaku kropki (`.`).
 
-Kropka wskazuje aktualny tekst przeznaczony do skopiowania i ułatwia śledzenie postępu podczas ćwiczeń.
+Kropka wskazuje aktualny tekst przeznaczony do skopiowania.
 
 ---
 
@@ -84,7 +84,7 @@ The new interface allows users to:
 
 Added support for displaying the dot character (`.`) in **HeadCopy** mode.
 
-The dot indicates the text that should be copied and makes it easier to follow the exercise progress.
+The dot indicates the current text that should be copied.
 
 ---
 
@@ -125,7 +125,7 @@ Die neue Funktion ermöglicht:
 
 Im Modus **HeadCopy** wird nun das Punktzeichen (`.`) angezeigt.
 
-Der Punkt kennzeichnet den zu kopierenden Text und erleichtert die Orientierung während der Übung.
+Der Punkt kennzeichnet den aktuell zu kopierenden Text.
 
 ---
 
