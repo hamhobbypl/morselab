@@ -1,3 +1,135 @@
+# MorseLAB – Release Notes 3.6
+
+MD5 (firmware_3_6.bin) = e0c17a60cdee26bf08232304ba51a6cd
+
+[firmware/firmware_3_6.bin](https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_3_6.bin)
+
+---
+
+# 🇵🇱 Polski
+
+## Release Notes
+
+### Usprawnienia Interfejsu Użytkownika
+
+#### Szybkie Wyjście z Ustawień
+
+Dodano możliwość opuszczenia ekranów szybkich ustawień poprzez długie naciśnięcie enkodera.
+
+Dotyczy to następujących parametrów:
+
+* WPM
+* FWPM
+* TX SPACE
+* VOLUME
+
+Dzięki temu nawigacja po urządzeniu jest szybsza i bardziej intuicyjna.
+
+---
+
+### Kreator Dodawania Sieci Wi-Fi
+
+Dodano nowe graficzne narzędzie umożliwiające dodawanie sieci Wi-Fi bezpośrednio z poziomu urządzenia przy użyciu enkodera.
+
+Nowy interfejs pozwala:
+
+* wybrać sieć Wi-Fi,
+* wprowadzić hasło za pomocą enkodera,
+* zapisać konfigurację bez konieczności edycji pliku `networks.txt`.
+
+---
+
+### Usprawnienia HEAD COPY
+
+W trybie **HeadCopy** dodano wyświetlanie znaku kropki (`.`).
+
+Kropka wskazuje aktualny tekst przeznaczony do skopiowania i ułatwia śledzenie postępu podczas ćwiczeń.
+
+---
+
+# 🇬🇧 English
+
+## Release Notes
+
+### User Interface Improvements
+
+#### Quick Exit from Settings Screens
+
+Added the ability to leave quick settings screens by performing a long press on the encoder.
+
+This applies to:
+
+* WPM
+* FWPM
+* TX SPACE
+* VOLUME
+
+This makes navigation faster and more convenient.
+
+---
+
+### Wi-Fi Network Setup Wizard
+
+Added a new graphical interface for configuring Wi-Fi networks directly from the device using the encoder.
+
+The new interface allows users to:
+
+* select a Wi-Fi network,
+* enter the password using the encoder,
+* save the configuration without editing the `networks.txt` file.
+
+---
+
+### HEAD COPY Improvements
+
+Added support for displaying the dot character (`.`) in **HeadCopy** mode.
+
+The dot indicates the text that should be copied and makes it easier to follow the exercise progress.
+
+---
+
+# 🇩🇪 Deutsch
+
+## Versionshinweise
+
+### Verbesserungen der Benutzeroberfläche
+
+#### Schnelles Verlassen der Einstellungen
+
+Es wurde die Möglichkeit hinzugefügt, die Schnelleinstellungen durch langes Drücken des Encoders zu verlassen.
+
+Dies gilt für folgende Einstellungen:
+
+* WPM
+* FWPM
+* TX SPACE
+* VOLUME
+
+Dadurch wird die Bedienung schneller und komfortabler.
+
+---
+
+### Assistent zur WLAN-Konfiguration
+
+Es wurde eine neue grafische Oberfläche hinzugefügt, mit der WLAN-Netzwerke direkt am Gerät über den Encoder eingerichtet werden können.
+
+Die neue Funktion ermöglicht:
+
+* Auswahl eines WLAN-Netzwerks,
+* Eingabe des Passworts über den Encoder,
+* Speichern der Konfiguration ohne Bearbeitung der Datei `networks.txt`.
+
+---
+
+### Verbesserungen für HEAD COPY
+
+Im Modus **HeadCopy** wird nun das Punktzeichen (`.`) angezeigt.
+
+Der Punkt kennzeichnet den zu kopierenden Text und erleichtert die Orientierung während der Übung.
+
+---
+
+
 # MorseLAB – Release Notes 3.4
 
 MD5 (firmware_3_4.bin) = ea08e4688d0adffe93fa86e4325eb65d
