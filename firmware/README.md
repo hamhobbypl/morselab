@@ -12,18 +12,18 @@ MD5 (firmware_3_6.bin) = e0c17a60cdee26bf08232304ba51a6cd
 
 ### Usprawnienia Interfejsu Użytkownika
 
-#### Szybkie Wyjście z Ustawień
+#### Szybkie Przerywanie Edycji Parametrów
 
-Dodano możliwość opuszczenia ekranów szybkich ustawień poprzez długie naciśnięcie enkodera.
+Dodano możliwość natychmiastowego przerwania edycji parametrów poprzez długie naciśnięcie enkodera.
 
-Dotyczy to następujących parametrów:
+Funkcja działa podczas ustawiania:
 
 * WPM
 * FWPM
 * TX SPACE
 * VOLUME
 
-Dzięki temu nawigacja po urządzeniu jest szybsza i bardziej intuicyjna.
+Użytkownik może teraz w dowolnym momencie opuścić proces konfiguracji bez konieczności przechodzenia przez kolejne kroki ustawień.
 
 ---
 
@@ -33,7 +33,7 @@ Dodano nowe graficzne narzędzie umożliwiające dodawanie sieci Wi-Fi bezpośre
 
 Nowy interfejs pozwala:
 
-* wybrać sieć Wi-Fi,
+* wprowadzić nazwę sieci Wi-Fi (SSID),
 * wprowadzić hasło za pomocą enkodera,
 * zapisać konfigurację bez konieczności edycji pliku `networks.txt`.
 
@@ -53,18 +53,18 @@ Kropka wskazuje aktualny tekst przeznaczony do skopiowania i ułatwia śledzenie
 
 ### User Interface Improvements
 
-#### Quick Exit from Settings Screens
+#### Quick Cancellation of Parameter Editing
 
-Added the ability to leave quick settings screens by performing a long press on the encoder.
+Added the ability to immediately cancel parameter editing by performing a long press on the encoder.
 
-This applies to:
+This applies while configuring:
 
 * WPM
 * FWPM
 * TX SPACE
 * VOLUME
 
-This makes navigation faster and more convenient.
+Users can now leave the configuration process at any time without stepping through the remaining settings.
 
 ---
 
@@ -74,7 +74,7 @@ Added a new graphical interface for configuring Wi-Fi networks directly from the
 
 The new interface allows users to:
 
-* select a Wi-Fi network,
+* enter the Wi-Fi network name (SSID),
 * enter the password using the encoder,
 * save the configuration without editing the `networks.txt` file.
 
@@ -94,18 +94,18 @@ The dot indicates the text that should be copied and makes it easier to follow t
 
 ### Verbesserungen der Benutzeroberfläche
 
-#### Schnelles Verlassen der Einstellungen
+#### Schnelles Abbrechen der Parametereinstellung
 
-Es wurde die Möglichkeit hinzugefügt, die Schnelleinstellungen durch langes Drücken des Encoders zu verlassen.
+Es wurde die Möglichkeit hinzugefügt, die Bearbeitung von Parametern jederzeit durch langes Drücken des Encoders abzubrechen.
 
-Dies gilt für folgende Einstellungen:
+Dies gilt während der Einstellung von:
 
 * WPM
 * FWPM
 * TX SPACE
 * VOLUME
 
-Dadurch wird die Bedienung schneller und komfortabler.
+Der Benutzer kann den Konfigurationsvorgang nun jederzeit verlassen, ohne die restlichen Einstellungen durchlaufen zu müssen.
 
 ---
 
@@ -115,7 +115,7 @@ Es wurde eine neue grafische Oberfläche hinzugefügt, mit der WLAN-Netzwerke di
 
 Die neue Funktion ermöglicht:
 
-* Auswahl eines WLAN-Netzwerks,
+* Eingabe des WLAN-Netzwerknamens (SSID),
 * Eingabe des Passworts über den Encoder,
 * Speichern der Konfiguration ohne Bearbeitung der Datei `networks.txt`.
 
@@ -128,6 +128,8 @@ Im Modus **HeadCopy** wird nun das Punktzeichen (`.`) angezeigt.
 Der Punkt kennzeichnet den zu kopierenden Text und erleichtert die Orientierung während der Übung.
 
 ---
+
+
 
 
 # MorseLAB – Release Notes 3.4
