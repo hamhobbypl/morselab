@@ -1,3 +1,47 @@
+# MorseLAB – Release Notes 3.7
+
+MD5 (firmware_3_7.bin) = db74ea50f94e451c70c7e928a9176e0e
+
+[firmware/firmware_3_7.bin](https://github.com/hamhobbypl/morselab/blob/main/firmware/firmware_3_7.bin)
+
+---
+
+# 🇵🇱 Polski
+
+## Release Notes
+
+### Usprawnienia HEAD COPY
+
+Naprawiono problem z odświeżaniem aktualnie nadawanego słowa w ćwiczeniu **HeadCopy**.
+
+Wyświetlany tekst jest teraz poprawnie aktualizowany po każdym nowym słowie, co zapewnia płynniejszą i bardziej czytelną pracę podczas ćwiczeń.
+
+---
+
+# 🇬🇧 English
+
+## Release Notes
+
+### HEAD COPY Improvements
+
+Fixed an issue with refreshing the currently transmitted word in the **HeadCopy** exercise.
+
+The displayed text is now updated correctly after each new word, providing smoother and more reliable operation during practice.
+
+---
+
+# 🇩🇪 Deutsch
+
+## Versionshinweise
+
+### Verbesserungen für HEAD COPY
+
+Ein Problem mit der Aktualisierung des aktuell gesendeten Wortes in der Übung **HeadCopy** wurde behoben.
+
+Der angezeigte Text wird nun nach jedem neuen Wort korrekt aktualisiert und sorgt dadurch für einen flüssigeren und zuverlässigeren Übungsablauf.
+
+---
+
 # MorseLAB – Release Notes 3.6
 
 MD5 (firmware_3_6.bin) = e0c17a60cdee26bf08232304ba51a6cd
