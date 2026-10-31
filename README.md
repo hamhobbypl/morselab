@@ -17,7 +17,7 @@ Aktualisiere die Software **nur, wenn du dir zu 100 % sicher bist, dass die zu i
 
 Update the software **only if you are 100% certain that the version you are installing is newer than the currently installed version**.
 
-**Installing an older version (downgrading) will render your device inoperable. You will need to contact us to restore its functionality.**# 
+**Installing an older version (downgrading) will render your device inoperable. You will need to contact us to restore its functionality.**
 
 ---
 
