@@ -1,3 +1,21 @@
+## ⚠️ Polski — Aktualizacja oprogramowania
+
+Aktualizuj oprogramowanie **wyłącznie wtedy, gdy masz 100% pewności, że instalowana wersja jest nowsza od obecnie zainstalowanej**.
+
+**Instalacja starszej wersji (downgrade) unieruchomi Twoje urządzenie. Przywrócenie jego działania będzie wymagało kontaktu z nami.**
+
+## ⚠️ Deutsch — Software-Update
+
+Aktualisiere die Software **nur, wenn du dir zu 100 % sicher bist, dass die zu installierende Version neuer als die aktuell installierte Version ist**.
+
+**Die Installation einer älteren Version (Downgrade) macht dein Gerät funktionsunfähig. Um es wieder in Betrieb nehmen zu können, musst du uns kontaktieren.**
+
+## ⚠️ English — Software Update
+
+Update the software **only if you are 100% certain that the version you are installing is newer than the currently installed version**.
+
+**Installing an older version (downgrading) will render your device inoperable. You will need to contact us to restore its functionality.**
+
 # MorseLAB – Release Notes 3.7
 
 MD5 (firmware_3_7.bin) = db74ea50f94e451c70c7e928a9176e0e
